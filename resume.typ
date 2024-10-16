@@ -18,7 +18,8 @@
   degree: "MSc",
   degree_title: "Mathematical Sciences (Graduated with Distinction)",
   details: [
-      - Overall mark: 79/100 (Rank: 3rd/58)
+      - Overall mark: 79/100
+      - Rank among cohort: 3rd/58
       - Courses: Category Theory, Algebraic Topology, Homological Algebra, Numerical Linear Algebra, Computational Algebraic Topology, Representation Theory of Semisimple Lie Algebras  ]
 )
 
@@ -33,10 +34,10 @@
   location: "Ningbo, China",
   date: "Sep 2019 - Jun 2021",
   degree: "BSc Hons",
-  degree_title: "Mathematics with Applied Mathematics (First Class)",
+  degree_title: "Mathematics with Applied Mathematics (Joint programme) (First Class)",
   details: [
-    - Overall mark: 92/100 (Rank: 2nd)
-    - Key Courses: Group Theory, Metric and Topological Spaces, Advanced Algorithms and Data Structures, Linear Analysis, Scientific Computation and Numerical Analysis, Discrete Mathematics and Graph Theory
+    - Overall mark: 92/100
+    - Key Courses: Group Theory, Metric and Topological Spaces, Linear Analysis, Scientific Computation and Numerical Analysis, Discrete Mathematics and Graph Theory, Advanced Algorithms and Data Structures
     // - Mathematics Group Projects: Prime Number Theorem, Galois Theory.
   ]
 )
@@ -153,11 +154,11 @@
 
 = Software Projects
 #project(
-  title: link("https://github.com/CardiacModelling/BenNevis/")[nevis],
-  kind: "Python pip package",
+  title: [#link("https://github.com/CardiacModelling/BenNevisBenchmark")[BenNevisBenchmark]],
+  kind: "Python module",
   date: "Aug 2022",
   details: [
-    Related to writing "Where's Ben Nevis". Personal contributions include new data visualisation methods.
+    Related to writing "Where's Ben Nevis". A benchmark framework for optimisation algorithms with data visualisation and animation methods.
   ]
 
 )
@@ -165,7 +166,7 @@
   title: link("https://github.com/EricWay1024/nott-course")[Nott Course],
   kind: "Web application",
   date: "Jun 2022",
-  details: [An unofficial enhancement of the University of Nottingham course catalogue, written with React and C++.],
+  details: [An unofficial enhancement of the University of Nottingham course catalogue,written with React and C++.],
 )
 
 
