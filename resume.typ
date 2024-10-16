@@ -5,8 +5,8 @@
   // location: "Hill Valley, CA",
   contacts: (
     [#link("mailto:yuhangwei@fastmail.com")[yuhangwei\@fastmail.com]],
-    [+44 (0)7856737491],
-    [+86 18961356233],
+    // [+44 (0)7856737491],
+    // [+86 18961356233],
   ),
 )
 
@@ -36,7 +36,7 @@
   degree_title: "Mathematics with Applied Mathematics (First Class)",
   details: [
     - Overall mark: 92/100 (Rank: 2nd)
-    - Key Courses: Group Theory, Metric and Topological Spaces, Advanced Algorithms and Data Structures, Linear Analysis, Scientific Computation and Numerical Analysis
+    - Key Courses: Group Theory, Metric and Topological Spaces, Advanced Algorithms and Data Structures, Linear Analysis, Scientific Computation and Numerical Analysis, Discrete Mathematics and Graph Theory
     // - Mathematics Group Projects: Prime Number Theorem, Galois Theory.
   ]
 )
@@ -47,22 +47,23 @@
 
 = Mathematical Writings
 #project(
-  title: link("https://github.com/EricWay1024/HoTT-Typst-Dissertation")[Synthetic Homotopy Theory],
+  title: [Synthetic Homotopy Theory | #link("https://arxiv.org/abs/2409.15693")[arXiv:2409.15693]],
   kind: "MSc dissertation",
   date: "Apr 2024",
-  details: [Supervised by Kobi Kremnizer. Based on Martin-Löf’s dependent type theory and homotopy type theory (HoTT). Presented a synthetic proof of the Blakers--Massey theorem.  Awarded the Dissertation Prize by Oxford Mathematics.]
+  details: [Supervised by Kobi Kremnizer. Based on Martin-Löf’s dependent type theory and homotopy type theory (HoTT). Presented a synthetic proof of the Blakers--Massey theorem. Mark: 90/100. Awarded the Dissertation Prize by Oxford Mathematics.]
 )
 #project(
-  title: link("https://github.com/EricWay1024/Computational-AT-mini-project")[Discrete Morse Theory for Persistent Homology for Sequences of Cosheaves],
+  title: [Discrete Morse Theory for Persistent Homology for Sequences of Cosheaves | #link("https://github.com/EricWay1024/Computational-AT-mini-project/releases/download/0.1/main.pdf")[pdf]],
   kind: "Mini-project for MSc course Computational Algebraic Topology",
   date: "Apr 2024",
   details: [Focused on filtrations of a cosheaf over a finite simplicial complex and using  Morse chain complex to compute the persistent homology.
+  Mark: 82/100.
   Included by the Past Projects Archive of Oxford Mathematics.
   ]
 )
 
 #project(
-  title: link("https://github.com/EricWay1024/Homological-Algebra-Notes")[Homological Algebra],
+  title:[Homological Algebra | #link("https://github.com/EricWay1024/Homological-Algebra-Notes/releases/download/v1.44/hom-alg-notes-color.pdf")[pdf]],
   kind: "Revised lecture notes for MSc course Homological Algebra",
   date: "Jan 2024",
   details: [
@@ -70,43 +71,74 @@
   ]
 )
 #project(
-  title: link("https://github.com/EricWay1024/Ben-Nevis-Report")[Where’s Ben Nevis?],
+  title: [Where’s Ben Nevis? | #link("https://arxiv.org/abs/2410.02422")[arXiv:2410.02422]],
   kind: "Undergraduate research project",
   date: "Sep 2023",
-  details: [Supervised by Michael Clerx and Gary R. Mirams. Developed  a 2D optimisation benchmark with 957,174 local optima based on Great Britain terrain data. In preparation for publication.]
+  details: [Joint work with Michael Clerx and Gary R. Mirams. Developed  a 2D optimisation benchmark with 957,174 local optima based on Great Britain terrain data. Submitted to _Mathematical Programming Computation_ (under review).]
 )
 
 #project(
-  title: link("https://github.com/EricWay1024/Galois-Theory-Group-Project")[Galois Theory],
+  title: [Galois Theory | #link("https://github.com/EricWay1024/Galois-Theory-Group-Project/releases/download/v1.0.0/Galois_Theory.pdf")[pdf]],
   kind: "Undergraduate group project",
   date: "Mar 2023",
   details: [
-    Personal contributions include sections on splitting fields, Galois groups, Galois extensions, Galois correspondence, solvable groups and the insolvability of quintic equations.
+    Personal contributions include sections on splitting fields, Galois groups, Galois extensions, Galois correspondence, solvable groups and the insolvability of quintic equations. Mark: 70/100.
   ]
 )
 
+= Seminars Attended
+
+#project(
+  title: "7th International Conference on Applied Category Theory & 40th Conference on Mathematical Foundations of Programming Semantics",
+  kind: "University of Oxford, Oxford, UK",
+  date: "17-21 Jun 2024"
+)
+
+#project(
+  title: "Twelfth Symposium on Compositional Structures (SYCO 12)",
+  kind: "University of Birmingham, Birmingham, UK",
+  date: "15-16 Apr 2024"
+)
+
+
+#project(
+  title: "4th Southern and Midlands Logic Seminar",
+  kind: "University of Birmingham, Birmingham, UK",
+  date: "13 Dec 2023"
+)
+
+#pagebreak()
 
 = Working Experience
 #work(
-  role: "Chief Technology Oﬀicer, Full-Stack Web Application Developer, Data Analyst",
+  role: "Tutor in Competitive Programming",
+  company: "Kuaimajiabian (SmartCoder) Information Technology (Lianyungang) Co. Ltd.",
+  location: "Lianyungang, China",
+  date: "Sep 2024 - Present",
+  // details: [
+
+  // ],
+)
+#work(
+  role: "Chief Technology Officer, Full-Stack Web Application Developer, Data Analyst",
   company: "Ningbo Xiaocheng Information Technology Co., Ltd.",
   location: "Ningbo, China",
   date: "Oct 2019 - Jun 2022", 
   details: [
     Presided a student developer team.
     Initiated the development of new features of a timetabling and course-rating web app based on React and Node.js with 3000+ daily active users.
-  ]
+  ],
 )
 
-#work(
-  company: "Zhiyuan Education Co., Ltd.",
-  role: "Tutor in Competitive Programming",
-  location: "Lianyungang, China",
-  date: "Jun 2021 - Aug 2021",
-  details: [
-    Delivered lectures on dynamic programming and mathematics-based algorithms to competitive programming participants.     Prepared lecture notes with C++ solutions and held regular tests.
-  ]
-)
+// #work(
+//   company: "Zhiyuan Education Co., Ltd.",
+//   role: "Tutor in Competitive Programming",
+//   location: "Lianyungang, China",
+//   date: "Jun 2021 - Aug 2021",
+//   details: [
+//     Delivered lectures on dynamic programming and mathematics-based algorithms to competitive programming participants.     Prepared lecture notes with C++ solutions and held regular tests.
+//   ]
+// )
 
 #work(
   role: "Data Analyst",
@@ -117,7 +149,7 @@
 )
 
 
-#pagebreak()
+// #pagebreak()
 
 = Software Projects
 #project(
@@ -141,7 +173,7 @@
 For academic performance:
 - *Departmental Dissertation Prize* _(Jul 2024)_, awarded by Mathematical Institute, University of Oxford;
 - *Second Martin Pluck G100 Prize* _(Jul 2023)_ and *The Harold Farnsworth OBE Prize* _(Oct 2022)_, awarded by Mathematical Sciences, University of Nottingham;
-- *President's Scholarship* and *Best Performer of the Year* _(Dec 2021 and Dec 2020)_, awarded by University of Nottingham Ningbo China;
+- *President's Scholarship* and *Best Performer of the Year* _(Dec 2021 and Dec 2020)_, both awarded twice by University of Nottingham Ningbo China;
 - *Zhejiang Government Scholarship* _(Dec 2020)_, awarded by Zhejiang Provincial Government of China.
 For competitive programming:
 - *Honourable Mention* _(Nov 2022  and Nov 2021)_, awarded by ICPC Northwestern Europe Regional Contest;

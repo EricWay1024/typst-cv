@@ -27,7 +27,7 @@ and creates the header and footer for the resume.
   // Document-wide formatting, including font and margins
   set text(
     font: "Linux Libertine",
-    size: 11pt,
+    size: 11.5pt,
     lang: "en"
   )
 
@@ -177,7 +177,7 @@ Experience section formatting logic.
   date: "",
   details: pad(top: -5pt, []),
 ) = grid(
-  columns: (1fr, 50pt),
+  columns: (1fr, 80pt),
   rows: (auto, auto),
   align(left)[
     #strong[#title] | #emph[#kind]
