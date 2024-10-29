@@ -20,7 +20,8 @@
   details: [
       - Overall mark: 79/100
       - Rank among cohort: 3rd/58
-      - Courses: Category Theory, Algebraic Topology, Homological Algebra, Numerical Linear Algebra, Computational Algebraic Topology, Representation Theory of Semisimple Lie Algebras  ]
+      - Courses: Category Theory, Algebraic Topology, Homological Algebra, Numerical Linear Algebra, Computational Algebraic Topology, Representation Theory of Semisimple Lie Algebras 
+      - Dissertation: Synthetic Homotopy Theory (Departmental Dissertation Prize) ]
 )
 
 #edu(
@@ -51,7 +52,13 @@
   title: [Synthetic Homotopy Theory | #link("https://arxiv.org/abs/2409.15693")[arXiv:2409.15693]],
   kind: "MSc dissertation",
   date: "Apr 2024",
-  details: [Supervised by Kobi Kremnizer. Based on Martin-Löf’s dependent type theory and homotopy type theory (HoTT). Presented a synthetic proof of the Blakers--Massey theorem. Mark: 90/100. Awarded the Dissertation Prize by Oxford Mathematics.]
+  details: [Supervised by Kobi Kremnizer. Based on Martin-Löf’s dependent type theory and homotopy type theory (HoTT). Presented a synthetic proof of the Blakers--Massey theorem. Mark: 90/100. (See Awards.)]
+)
+#project(
+  title: [Where’s Ben Nevis? | #link("https://arxiv.org/abs/2410.02422")[arXiv:2410.02422]],
+  kind: "Undergraduate research project",
+  date: "Sep 2023",
+  details: [Joint work with Michael Clerx and Gary R. Mirams. Developed  a 2D optimisation benchmark with 957,174 local optima based on Great Britain terrain data. Submitted to _Mathematical Programming Computation_ (under review).]
 )
 #project(
   title: [Discrete Morse Theory for Persistent Homology for Sequences of Cosheaves | #link("https://github.com/EricWay1024/Computational-AT-mini-project/releases/download/0.1/main.pdf")[pdf]],
@@ -63,19 +70,14 @@
   ]
 )
 
+
 #project(
-  title:[Homological Algebra | #link("https://github.com/EricWay1024/Homological-Algebra-Notes/releases/download/v1.44/hom-alg-notes-color.pdf")[pdf]],
+  title:[Homological Algebra | #link("https://github.com/EricWay1024/Homological-Algebra-Notes/releases/download/v1.5.4/hom-alg-notes-color.pdf")[pdf]],
   kind: "Revised lecture notes for MSc course Homological Algebra",
   date: "Jan 2024",
   details: [
-    Main results include derived functors, the balancing of $"Ext"$ and $"Tor"$, Koszul (co)homology and group (co)homology.
+    Main results include derived functors, the balancing of $"Ext"$ and $"Tor"$, Koszul (co)homology and group (co)homology. Currently provided as #link("https://courses.maths.ox.ac.uk/course/view.php?id=5582")[a course material].
   ]
-)
-#project(
-  title: [Where’s Ben Nevis? | #link("https://arxiv.org/abs/2410.02422")[arXiv:2410.02422]],
-  kind: "Undergraduate research project",
-  date: "Sep 2023",
-  details: [Joint work with Michael Clerx and Gary R. Mirams. Developed  a 2D optimisation benchmark with 957,174 local optima based on Great Britain terrain data. Submitted to _Mathematical Programming Computation_ (under review).]
 )
 
 #project(
@@ -172,7 +174,7 @@
 
 = Awards
 For academic performance:
-- *Departmental Dissertation Prize* _(Jul 2024)_, awarded by Mathematical Institute, University of Oxford;
+- *Departmental Award for Best OMMS (Oxford Masters in Mathematical Sciences) Dissertation* _(Jul 2024)_, awarded by Mathematical Institute, University of Oxford;
 - *Second Martin Pluck G100 Prize* _(Jul 2023)_ and *The Harold Farnsworth OBE Prize* _(Oct 2022)_, awarded by Mathematical Sciences, University of Nottingham;
 - *President's Scholarship* and *Best Performer of the Year* _(Dec 2021 and Dec 2020)_, both awarded twice by University of Nottingham Ningbo China;
 - *Zhejiang Government Scholarship* _(Dec 2020)_, awarded by Zhejiang Provincial Government of China.
