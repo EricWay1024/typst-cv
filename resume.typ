@@ -21,7 +21,7 @@
       - Overall mark: 79/100
       - Rank among cohort: 3rd/58
       - Courses: Category Theory, Algebraic Topology, Homological Algebra, Numerical Linear Algebra, Computational Algebraic Topology, Representation Theory of Semisimple Lie Algebras 
-      - Dissertation: Synthetic Homotopy Theory (Departmental Dissertation Prize) ]
+      - Dissertation: _Synthetic Homotopy Theory_ (Departmental Dissertation Prize) ]
 )
 
 #edu(
@@ -58,7 +58,7 @@
   title: [Where’s Ben Nevis? | #link("https://arxiv.org/abs/2410.02422")[arXiv:2410.02422]],
   kind: "Undergraduate research project",
   date: "Sep 2023",
-  details: [Joint work with Michael Clerx and Gary R. Mirams. Developed  a 2D optimisation benchmark with 957,174 local optima based on Great Britain terrain data. Submitted to _Mathematical Programming Computation_ (under review).]
+  details: [Joint work with Michael Clerx and Gary R. Mirams. Developed  a 2D optimisation benchmark with 957,174 local optima based on Great Britain terrain data. Submitted to _The Journal of Global Optimization_.]
 )
 #project(
   title: [Discrete Morse Theory for Persistent Homology for Sequences of Cosheaves | #link("https://github.com/EricWay1024/Computational-AT-mini-project/releases/download/0.1/main.pdf")[pdf]],
@@ -72,7 +72,7 @@
 
 
 #project(
-  title:[Homological Algebra | #link("https://github.com/EricWay1024/Homological-Algebra-Notes/releases/download/v1.5.4/hom-alg-notes-color.pdf")[pdf]],
+  title:[Homological Algebra | #link("https://github.com/EricWay1024/Homological-Algebra-Notes/releases/download/v1.6.6/hom-alg-notes-color.pdf")[pdf]],
   kind: "Revised lecture notes for MSc course Homological Algebra",
   date: "Jan 2024",
   details: [
@@ -115,12 +115,12 @@
 = Working Experience
 #work(
   role: "Tutor in Competitive Programming",
-  company: "Kuaimajiabian (SmartCoder) Information Technology (Lianyungang) Co. Ltd.",
+  company: "Kuaimajiabian (Smart Coder Academy) Information Technology (Lianyungang) Co. Ltd.",
   location: "Lianyungang, China",
   date: "Sep 2024 - Present",
-  // details: [
-
-  // ],
+  details: [
+    Deliver lectures on mathematical topics such as number theory and graph theory in the context of competitive programming. Hold regular tests and Q&A sessions. 
+  ],
 )
 #work(
   role: "Chief Technology Officer, Full-Stack Web Application Developer, Data Analyst",
@@ -218,13 +218,13 @@ For competitive programming:
     [Tableau]
   )),
   ("Typesetting", (
-    [LaTeX, Typst],
+    [LaTeX], [Typst],
   )),
   ("Languages", (
-    [English (fluent, IELTS overall 8.5 with speaking 8)],
-    [Mandarin Chinese (native)],
-    [Cantonese (conversational)],
-    [French (elementary)],
+    [English -- Fluent (IELTS overall 8.5 with speaking 8.0)],
+    [French -- Reading proficiency in mathematical literature],
+    [Mandarin Chinese -- Native],
+    [Cantonese -- Conversational],
   )),
 ))
 
