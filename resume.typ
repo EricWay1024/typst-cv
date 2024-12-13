@@ -124,7 +124,7 @@
 )
 #work(
   role: "Chief Technology Officer, Full-Stack Web Application Developer, Data Analyst",
-  company: "Ningbo Xiaocheng Information Technology Co., Ltd.",
+  company: "Ningbo Xiaocheng (uFair) Information Technology Co., Ltd.",
   location: "Ningbo, China",
   date: "Oct 2019 - Jun 2022", 
   details: [

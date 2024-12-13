@@ -26,7 +26,7 @@ and creates the header and footer for the resume.
 
   // Document-wide formatting, including font and margins
   set text(
-    font: "Linux Libertine",
+    font: "Libertinus Serif",
     size: 11.5pt,
     lang: "en"
   )
